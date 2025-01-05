@@ -27,5 +27,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', include('blog.urls')), #farklı bir uygulamadan gelen path şemasını buraya dahil ettik include ile.
+    path('', include('blog.urls')), #farklı bir uygulamadan gelen path şemasını buraya dahil ettik include ile.
 ]
