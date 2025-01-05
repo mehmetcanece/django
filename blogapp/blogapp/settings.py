@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True,
+        'APP_DIRS': True, #uygulamadaki templates klasörünü otomatik olarak arar.
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
