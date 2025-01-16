@@ -55,7 +55,9 @@ ROOT_URLCONF = 'blogapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+          BASE_DIR / "templates", # ana dizin altındaki tepmlates
+        ],
         'APP_DIRS': True, #uygulamadaki templates klasörünü otomatik olarak arar.
         'OPTIONS': {
             'context_processors': [
